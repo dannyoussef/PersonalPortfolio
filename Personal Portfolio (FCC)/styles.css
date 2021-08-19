@@ -1,0 +1,197 @@
+html {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+    margin: 0;
+    color: white;
+    background-image: radial-gradient(crimson, maroon);
+}
+
+@media(max-width: 850px) {
+    body {
+        width: 100%;
+    }
+}
+
+/* Navbar Section */
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: slategray;
+    position: fixed;
+    top: 0;
+}
+
+.nav-link {
+    padding: 20px;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    transition: color, 0.5s;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: black;
+}
+
+/* Welcome Section */
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: radial-gradient(crimson, maroon);
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 6rem;
+    padding-top: 10rem;
+    color: black;
+    transition: ease-out 1.3s;
+}
+
+p {
+    font-size: 3rem;
+    margin: 0;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+/* Projects Section */
+#projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: radial-gradient(rgb(20, 157, 220), rgb(0, 66, 128));
+    height: 100vh;
+    padding: 10rem 2rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color: black;
+}
+
+#project-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    border: solid;
+    border-color: black;
+}
+
+img:hover {
+    border-width: 2px;
+    box-shadow:10px 10px 50px whitesmoke; 
+}
+
+#project-3, #project-4 {
+    padding-top: 115px;
+}
+
+.project-thumbnail {
+    width: 20vw;
+}
+
+.project-thumbnail:hover {
+    transition: translateY(2px);
+}
+
+.project-title {
+    color: black;
+}
+
+/* Contact Section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: radial-gradient(rgb(214, 183, 3), orange);
+    height: 70vh;
+    padding: 10rem 2rem;
+}
+
+#contact-list {
+    display: flex;
+    justify-content:center;
+    padding-top: 75px;
+}
+
+#github-icon {
+    font-size: 40px;
+    color: black;
+    padding: 0 30px 0 0;
+}
+
+#github-icon:hover {
+    color: white;
+}
+
+#linkedin-icon {
+    font-size: 40px;
+    color: black;
+    padding: 0 30px 0 30px;
+}
+
+#linkedin-icon:hover {
+    color: white;
+}
+
+#fcc-icon {
+    font-size: 40px;
+    color: black;
+    padding: 0 0 0 30px;
+}
+
+#fcc-icon:hover {
+    color: white;
+}
+
+#contact-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.labels {
+    font-size: 25px;
+    color: black;
+}
+
+input, textarea {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#submit-button-wrapper {
+    padding-top: 15px;
+}
+
+#submit-button {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#submit-button:active {
+    transform: translateY(5px);
+}
+
+#submit-button:hover {
+    background-color: white;
+    color: black;
+}

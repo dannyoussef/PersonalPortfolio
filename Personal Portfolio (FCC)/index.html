@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <script src="https://kit.fontawesome.com/11f4ca55c6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</header>
+
+<body>
+    <nav id="navbar">
+        <a href="#welcome-section" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <section id="welcome-section">
+        <h1>Hi, I'm Daniel</h1>
+        <p>a web developer</p>
+    </section>
+
+    <section id="projects">
+        <h2 id="project-header">Some of my work...</h2>
+        <div id="project-list">
+            <div id="project-1">
+                <a href="https://codepen.io/dannyoussef/pen/dyWXVRv" class="project-tile" target="_blank">
+                    <img class="project-thumbnail" src="images/image4.png">
+                    <p class="project-title">Tribute Page</p>
+                </a>
+            </div>
+            <div id="project-2">
+                <a href="https://codepen.io/dannyoussef/pen/MWmQVEY" class="project-tile" target="_blank">
+                    <img class="project-thumbnail" src="images/image1.png">
+                    <p class="project-title">Survey Form</p>
+                </a>
+            </div>
+            <div id="project-3">
+                <a href="https://codepen.io/dannyoussef/pen/OJmooGw" class="project-tile" target="_blank">
+                    <img class="project-thumbnail" src="images/image3.png">
+                    <p class="project-title">Product Landing Page</p>
+                </a>
+            </div>
+            <div id="project-4">
+                <a href="https://codepen.io/dannyoussef/pen/OJmdaXw" class="project-tile" target="_blank">
+                    <img class="project-thumbnail" src="images/image2.png">
+                    <p class="project-title">Technical Documentation</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact me!</h2>
+        <form id="contact-form">
+            <label class="labels" id="name-label" for="name">Name:</label>
+            <input id="name" cols="40" rows="1" placeholder="Enter your name." required></input>
+            <label class="labels" id="email-label" for="email">Email:</label>
+            <input type="email" id="email" cols="40" rows="1" placeholder="Enter your email address." required></input>
+            <label class="labels" id="message-label" for="message">Message:</label>
+            <textarea id="message" cols="30" rows="15" placeholder="Leave a message." required></textarea>
+            <div id="submit-button-wrapper">
+                <button type="submit" id="submit-button">Submit</button>
+            </div>
+        </form>
+        <div id="contact-list">
+            <a id="github-profile-link" href="">
+                <i id="github-icon" class="fab fa-github fa-3x"></i>
+            </a>
+            <a id="linkedin-profile-link" href="">
+                <i id="linkedin-icon" class="fab fa-linkedin-in fa-3x"></i>
+            </a>
+            <a id="profile-link" href="https://www.freecodecamp.org/dannyoussef" target="_blank">
+                <i id="fcc-icon" class="fab fa-free-code-camp"></i>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
